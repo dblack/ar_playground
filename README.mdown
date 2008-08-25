@@ -1,6 +1,12 @@
 Active Record Playground
 ========================
 
+I've added some stuff to Erik Kastner's ActiveRecord Playground, so you can now
+call {add,change,remove,rename}_column on any AR subclass, during your
+interactive session. 
+
+Here's Erik's README:
+
 [Active Record](http://api.rubyonrails.org/classes/ActiveRecord/Base.html "Class: ActiveRecord::Base") is a fantastic ORM(Object Relational Mapping) library in ruby that is the basis of Ruby on Rails' database layer.
 
 ar\_playground is a simple script for exploring the ins-and-outs of Active Record in a clean, non-destructive way.
